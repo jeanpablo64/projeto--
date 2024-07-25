@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 992px){ /*Tablets*/
+    body {
+        height: 1140px;
+        background: blueviolet;
+    }
+
+    header {
+        height: 12vw;
+    }
+
+    header > h1 {
+        margin-left: 30px;
+    }
+
+    header > form {
+        width: 470px;
+        margin-right: 220px;
+    }
+    
+    header > form > input {
+        width: 500px;
+    }
+
+    header > #burguer{
+        display: none;
+    }
+
+    #itens {
+        display: block;
+    }
+
+
+    main {
+        background-image: linear-gradient(to right, white, transparent 100%);
+        background-color: transparent;
+        height: 1003px;
+        transition: 0.5s;
+    }
+
+
+}
+
+@media screen and (min-width: 992px){
+    body {
+       height: 90vw;
+       width: 100vw;
+       background-image: url(../medias/papel\ de\ parede.jpg);
+       background-position: center center;
+       background-size: cover;
+    }
+
+    header {
+        height: 6vw;
+    }
+
+    header > h1 {
+        margin-left: 30px;
+    }
+
+    header > form {
+        width: 500px;
+        margin-right: 220px;
+    }
+    
+    header > form > input {
+        width: 700px;
+    }
+
+    header > #burguer{
+        display: none;
+    }
+
+    header > .seglogo {
+        display: block;
+        width: 50px;
+        height: 10px;
+        margin-right: 30px;
+        align-items: flex-end;
+    }
+
+    .seglogo img {
+        width: 50px;
+    }
+
+    #itens {
+        display: block;
+    }
+
+    main {
+        background-image: linear-gradient(to right, white, transparent 100%);
+        background-color: transparent;
+        height: 80vw;
+        transition: 0.5s;
+    }
+
+    main > section p {
+        font-size: 1.1em;
+        letter-spacing: 2px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main > button {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+}
